@@ -4,7 +4,7 @@ import { Header } from "../components/Header";
 const WelcomePage = () => {
   return (
     <div className="w-full  bg-linear-127 from-[#00A7B3] to-[#002847] ">
-      <Header />
+      <Header pageName="welcome"/>
 
       <div className="flex justify-center w-full">
         <div className="flex justify-center items-center relative w-[1280px] h-[600px] text-white inria-sans-regular mx-11 mt-7 bg-black text-center rounded-3xl">
